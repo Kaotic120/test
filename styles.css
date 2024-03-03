@@ -3,18 +3,23 @@
  }  
 
 @media screen and (max-width: 768px){
+    body{
+        display:flex;
+        flex-direction: column;
+    }
     
     .kContainrPhotoSht{
         display:flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         width: 780px;
         
     }
     .kmainphotosht{
         display:flex;
         flex-wrap: wrap;
-        width:100%;
-        background-color: brown;
+        width: 780px;
+        
+        
     }
 
     .imageBlu{
@@ -51,7 +56,7 @@ body{
     width: 1680px;
     height: fit-content;  
     padding:0px;
-    margin:auto;
+    
     margin-top: 50px;
 
     background-image: linear-gradient(#f3f3f3,#6498d4,#e77ceb );
